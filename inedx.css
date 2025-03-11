@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 60px;
+}
+.cen {
+
+
+    border: 5px solid black;
+    display: grid;
+    grid-template-columns: repeat(8, 50px);
+    grid-template-rows: repeat(8, 50px);
+    width: 400px;
+    height: 400px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px red, 0 0 20px gold, 0 0 30px violet;
+}
+
+
+.black {
+    background-color: black;
+}
+.cen div {
+
+    width: 50px;
+    height: 50px;
+}
